@@ -231,13 +231,26 @@ const TestimonialsSection = () => {
         { src: "/logos/jito.png", alt: "JITO" },
         { src: "/logos/cii.png", alt: "CII" },
         { src: "/logos/lic.png", alt: "LIC" },
-      ].concat([
         { src: "/logos/vivo.png", alt: "VIVO" },
         { src: "/logos/oppo.png", alt: "OPPO" },
         { src: "/logos/bjs.png", alt: "BJS" },
         { src: "/logos/rel.png", alt: "Reliance" },
         { src: "/logos/iskcon.png", alt: "ISKCON" },
         { src: "/logos/metso.png", alt: "Metso" },
+      ].concat([
+        { src: "/logos/jio.png", alt: "Jio" },
+        { src: "/logos/amazon.png", alt: "Amazon" },
+        { src: "/logos/sbi.png", alt: "SBI Life" },
+        { src: "/logos/jito.png", alt: "JITO" },
+        { src: "/logos/cii.png", alt: "CII" },
+        { src: "/logos/lic.png", alt: "LIC" },
+        { src: "/logos/vivo.png", alt: "VIVO" },
+        { src: "/logos/oppo.png", alt: "OPPO" },
+        { src: "/logos/bjs.png", alt: "BJS" },
+        { src: "/logos/rel.png", alt: "Reliance" },
+        { src: "/logos/iskcon.png", alt: "ISKCON" },
+        { src: "/logos/metso.png", alt: "Metso" },
+        
       ]).map((logo, i) => (
         <div
           key={i}

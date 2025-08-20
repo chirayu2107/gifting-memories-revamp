@@ -1,73 +1,96 @@
-# Welcome to your Lovable project
+# 🎁 Gifting Memories – Personalized Gifting Platform
 
-## Project info
+**Gifting Memories** is a modern, elegant, and responsive web platform built with React, TailwindCSS, and Framer Motion.  
+It allows users to create, share, and explore personalized gift ideas with a visually stunning and intuitive interface.  
 
-**URL**: https://lovable.dev/projects/52a1e21c-c21d-45d4-bfee-ed4c81107dc1
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- 🖼️ Upload and showcase personalized gift ideas  
+- 🎨 Elegant and minimal UI with Framer Motion animations  
+- 📱 Fully responsive design for mobile, tablet, and desktop  
+- ⚡ Blazing-fast with Vite + React  
+- 🔒 Optional backend integration with Supabase/Firebase  
+- 🔍 Smart search & filter for memories  
+- 🌟 Smooth user experience with reusable UI components  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/52a1e21c-c21d-45d4-bfee-ed4c81107dc1) and start prompting.
+## 🛠 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **React + Vite**
+- **TailwindCSS** (styling)  
+- **shadcn/ui** (UI components)  
+- **Framer Motion** (animations)  
+- **Lucide React** (icons)  
+- **Supabase / Firebase** (optional backend & auth)  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ⚙️ Setup Instructions
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 1. Clone the repository
 
-Follow these steps:
+```bash
+git clone https://github.com/chirayu2107/gifting-memories.git
+cd gifting-memories
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 2. Install Dependencies
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 3. Run the development server
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The app will start at http://localhost:8080
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 4. Build for production
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+### 📂 Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+gifting-memories/
+├── public/                # Static assets
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Page views
+│   ├── assets/            # Images, icons, fonts
+│   ├── App.tsx            # Main App component
+│   └── main.tsx           # Entry point
+├── index.html
+├── tailwind.config.js
+├── vite.config.ts
+└── package.json
+```
 
-## What technologies are used for this project?
+### 📜 Scripts
 
-This project is built with:
+| Command           | Description              |
+| ----------------- | ------------------------ |
+| `npm run dev`     | Start development server |
+| `npm run build`   | Build for production     |
+| `npm run lint`    | Run ESLint checks        |
+| `npm run preview` | Preview production build |
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
+### 🤝 Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/52a1e21c-c21d-45d4-bfee-ed4c81107dc1) and click on Share -> Publish.
+Contributions, issues, and feature requests are welcome!
+Feel free to fork the repo and open a PR.
 
-## Can I connect a custom domain to my Lovable project?
+### 📜 License
 
-Yes, you can!
+This project is licensed under the MIT License — feel free to use, modify, and distribute.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### ✨ Credits
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Made with ❤️ using React, TailwindCSS, Framer Motion, and lots of ☕ by Chirayu Maru
