@@ -203,7 +203,7 @@ const Footer = () => {
                 transition={{ duration: 0.6 }}
                 className="text-secondary-foreground/60 text-sm text-center md:text-left"
               >
-                © 2025 Gifting Memories. All rights reserved. | Made with ❤️ by Chirayu
+                © {new Date().getFullYear()} Gifting Memories. All rights reserved. | Made with ❤️ by Chirayu
               </motion.div>
               
               <motion.button
