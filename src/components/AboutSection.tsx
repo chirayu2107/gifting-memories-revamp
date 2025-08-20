@@ -116,7 +116,7 @@ const AboutSection = () => {
                   transition={{ type: "spring", stiffness: 300, damping: 20 }}
                 >
                   <img
-                    src="http://res.cloudinary.com/dkoiyuyhj/image/upload/v1755678456/y82ycuv2okpcme7lcxmj.png"
+                    src="https://res.cloudinary.com/dkoiyuyhj/image/upload/v1755678456/y82ycuv2okpcme7lcxmj.png"
                     alt="Aatish Lodha - Founder"
                     className="w-38 h-38 rounded-2xl object-cover shadow-medium"
                   />
