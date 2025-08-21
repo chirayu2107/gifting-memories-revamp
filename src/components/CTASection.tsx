@@ -146,8 +146,8 @@ const CTASection = () => {
                     icon: MapPin,
                     title: "Visit Us",
                     content:
-                      "91, Dhuleshwar Gdn, near S R Kalla Hospital, Panch Batti, C Scheme, Hathroi, Jaipur, Rajasthan 302001",
-                    action: "https://share.google/9z8bGAMDCMl78MfSR",
+                      "B1 Mahesh Nagar, Lodha Parisar, Chittorgarh-312001, Rajasthan",
+                    action: "https://maps.app.goo.gl/fw5NKZVM1hvUUfEC6",
                   },
                 ].map((contact, index) => (
                   <motion.a
