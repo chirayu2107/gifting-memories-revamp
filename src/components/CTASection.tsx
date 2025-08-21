@@ -146,8 +146,8 @@ const CTASection = () => {
                     icon: MapPin,
                     title: "Visit Us",
                     content:
-                      "B1 Mahesh Nagar, Lodha Parisar, Chittorgarh-312001, Rajasthan",
-                    action: "#",
+                      "91, Dhuleshwar Gdn, near S R Kalla Hospital, Panch Batti, C Scheme, Hathroi, Jaipur, Rajasthan 302001",
+                    action: "https://share.google/9z8bGAMDCMl78MfSR",
                   },
                 ].map((contact, index) => (
                   <motion.a
@@ -185,9 +185,9 @@ const CTASection = () => {
                   Business Hours
                 </h4>
                 <p className="text-primary-foreground/80 text-sm">
-                  Monday - Saturday: 9:00 AM - 7:00 PM
+                  Monday - Saturday: 10:00 AM - 7:00 PM
                   <br />
-                  Sunday: By Appointment
+                  Sunday: Closed
                 </p>
               </motion.div>
             </div>
